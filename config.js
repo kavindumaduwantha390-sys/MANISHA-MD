@@ -2,12 +2,12 @@ require('dotenv').config(); // Load .env if exists
 
 // ================== CONFIG SETTINGS ==================
 const settings = {
-    SESSION_ID: process.env.SESSION_ID || "",//enter session id 
+    SESSION_ID: process.env.SESSION_ID || "kvUSkagS#G5wcm2GGxUC5ONJrM9GgU6svpB1Gu1CbciJPdbWE7EQ",//enter session id 
     MODE: process.env.MODE || "private", //bot mode (private/ public/ inbox/ group)
     PREFIX: process.env.PREFIX || ".", // bot command prefix
     AUTO_REACT: process.env.AUTO_REACT || "false", // (true / false)
     ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "inbox", // (inbox / log)
-    DEV: process.env.DEV || "", //bot number
+    DEV: process.env.DEV || "94756507197", //bot number
     READ_MESSAGE: process.env.READ_MESSAGE || "false", // (true / false)
     AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "false", // (true / false)
     AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false", // (true / false)
